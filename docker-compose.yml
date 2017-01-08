@@ -6,7 +6,7 @@ services:
     ports:
       - "4200:4200"
     volumes:
-      - "./seedy:/var/app"
+      - "./application:/var/app"
     build:
       context: .
       dockerfile: node.dockerfile
