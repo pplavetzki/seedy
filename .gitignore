@@ -74,6 +74,7 @@ coverage
 build/Release
 
 .vagrant
+.DS_Store
 
 app/build
 

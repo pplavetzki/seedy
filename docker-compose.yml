@@ -7,6 +7,7 @@ services:
       - "4200:4200"
     volumes:
       - "./application:/var/app"
+      - "/var/app/node_modules"
     build:
       context: .
       dockerfile: node.dockerfile
